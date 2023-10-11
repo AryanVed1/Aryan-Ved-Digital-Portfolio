@@ -2,44 +2,41 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Stylish Website</title>
+    <title>Your Name - Portfolio</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="hero">
-            <h1>Welcome to Our Website</h1>
-            <p>Your one-stop destination for web design inspiration.</p>
-            <a href="#" class="cta-button">Learn More</a>
+        <section id="about">
+            <h1>About Me</h1>
+            <p>Welcome to my portfolio. I am a web developer with a passion for creating beautiful, user-friendly websites.</p>
         </section>
-        <section class="featured">
-            <h2>Featured Projects</h2>
-            <div class="project-card">
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="project">
                 <img src="project1.jpg" alt="Project 1">
                 <h3>Project 1</h3>
+                <p>Description of Project 1</p>
             </div>
-            <div class="project-card">
+            <div class="project">
                 <img src="project2.jpg" alt="Project 2">
                 <h3>Project 2</h3>
+                <p>Description of Project 2</p>
             </div>
-            <div class="project-card">
-                <img src="project3.jpg" alt="Project 3">
-                <h3>Project 3</h3>
-            </div>
+            <!-- Add more project entries as needed -->
         </section>
     </main>
-    <footer>
-        <p>&copy; 2023 Stylish Website. All rights reserved.</p>
+    <footer id="contact">
+        <p>&copy; 2023 Your Name. Contact me at your@email.com</p>
     </footer>
 </body>
 </html>
