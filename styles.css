@@ -8,10 +8,13 @@ body {
 header {
     background-color: #333;
     color: #fff;
+    text-align: right;
+    padding: 20px;
 }
 
 nav ul {
     list-style: none;
+    margin: 0;
     padding: 0;
 }
 
@@ -27,56 +30,29 @@ nav a {
     font-size: 16px;
 }
 
-.hero {
-    background-image: url('hero-background.jpg');
-    background-size: cover;
-    text-align: center;
-    padding: 100px 0;
-    color: #fff;
+main {
+    margin: 20px;
 }
 
-.hero h1 {
+section {
+    margin-bottom: 50px;
+}
+
+h1 {
     font-size: 36px;
     margin: 20px 0;
 }
 
-.cta-button {
-    display: inline-block;
-    background-color: #ff6600;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 16px;
-}
-
-.cta-button:hover {
-    background-color: #ff9900;
-}
-
-.featured {
+.project {
     text-align: center;
-    margin: 50px 0;
-}
-
-.project-card {
-    display: inline-block;
     margin: 20px;
 }
 
-.project-card img {
+.project img {
     max-width: 100%;
     border-radius: 10px;
 }
 
-.project-card h3 {
+.project h3 {
     margin: 10px 0;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
 }
