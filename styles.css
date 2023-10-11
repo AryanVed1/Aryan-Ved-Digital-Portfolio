@@ -1,6 +1,6 @@
 /* styles.css */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -8,40 +8,75 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    text-align: center;
-    padding: 20px;
 }
 
 nav ul {
     list-style: none;
-    background-color: #333;
     padding: 0;
-    text-align: center;
 }
 
 nav li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 nav a {
     text-decoration: none;
     color: #fff;
+    font-weight: bold;
+    font-size: 16px;
 }
 
-main {
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.cta-button:hover {
+    background-color: #ff9900;
+}
+
+.featured {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.project-card {
+    display: inline-block;
     margin: 20px;
 }
 
-section {
-    margin: 20px 0;
+.project-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.project-card h3 {
+    margin: 10px 0;
 }
 
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 20px 0;
 }
-
-/* Additional CSS can be added for further styling */
