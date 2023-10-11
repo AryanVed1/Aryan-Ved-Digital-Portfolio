@@ -1,6 +1,47 @@
-body
-{
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
-    background: pink;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #333;
+    padding: 0;
     text-align: center;
 }
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    margin: 20px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Additional CSS can be added for further styling */
